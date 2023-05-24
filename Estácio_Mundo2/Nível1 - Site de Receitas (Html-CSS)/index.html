@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="receitas.css">
+  <title>Receitas</title>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="assets/images/pizza logotipo.jpg" alt="Logotipo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Receitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastro</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<body>
+  
+  <main>
+
+    <section id="menu" class="container mt-5 mb-5">
+      <div class="tab-content" id="coffeeTabContent">
+        <div class="tab-pane fade show active" id="expresso-tab-pane" role="tabpanel" aria-labelledby="expresso-tab"
+          tabindex="0">
+
+        </div>
+        <!-- Cards  ----------------------------------------------------------->
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+          <div class="col">
+            <div class="card card-menu">
+              <img src="assets/images/pao_italiano.webp" class="card-img-top"
+                alt="Pao Italiano">
+              <div class="card-body">
+                <h4 class="card-title">Pão Italiano</h4>
+                <ul>
+                  <li> 500g - farinha de trigo</li>
+                  <li> 350g - água</li>
+                  <li> 5g - fermento biológico (seco)</li>
+                  <li> 9g - sal</li>
+                </ul>
+                <hr>
+                <h5>Modo de Preparo</h5>
+                <p> - misture a farinha, água e fermento e deixe descansar por 30 minutos.<br>
+                  - misture o sal de bata até incorporar.<br>
+                  - faça 10 dobras a cada 30 minutos por 4 vezes. <br>
+                  - asse em forno pré-aquecido em 230°C. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img src="assets/images/Pizza_pepperoni.webp" class="card-img-top"
+                alt="Pizza Pepperoni">
+              <div class="card-body">
+                <h4 class="card-title">Pizza de Peperroni</h4>
+                <ul>
+                  <li> 350g - massa de pizza</li>
+                  <li> 150g - queijo mussarela</li>
+                  <li> 50g - pepperoni</li>
+                  <li> 30g - molho de tomate</li>
+                </ul>
+                <hr>
+                <h5>Modo de Preparo</h5>
+                <p> - pre-asse a massa em forno à 250°C<br>
+                  - coloque o molho sobre toda a superfície, deixando 1cm de borda<br>
+                  - cubra com toda a mussarela e distribua o pepperoni<br>
+                  - asse em forno pré-aquecido em 180°C por 15minutos. <br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card card-menu">
+              <img src="assets/images/cinnamon_roll.webp" class="card-img-top"
+                alt="Cinnamon Roll">
+              <div class="card-body">
+                <h4 class="card-title">Cinnamon Roll</h4>
+                <ul>
+                  <li>250g - massa de pizza</li>
+                  <li>recheio formado por:</li>
+                  <ul>
+                    <li>50g - manteiga derretida </li>
+                    <li>5g - canela em pó</li>
+                    <li>200g - açucar cristal</li>
+                    <li>10g- farinha de trigo</li>
+                  </ul>
+                </ul>
+                <hr>
+                <h5>Modo de Preparo</h5>
+                <p> - Abra a massa em uma bancada deixando na dimensão de 40x30cm.<br>
+                  - despeje a manteiga derretida sobre toda a superficie.<br>
+                  - misture os secos do recheio e despeje em cima da manteiga.<br>
+                  - enrole e corte rolos de 8cm de altura.<br>
+                  - asse em forno pre-aquecido à 180°C por 30minutos<br>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--------- DISPONÍVEL PARA SE DESEJAR COLOCAR MAIS RECEITAS ----------->
+          <!-- <div class="col">
+              <div class="card card-menu">
+                <img src="http://source.unsplash.com/random/?coffe&4" class="card-img-top" alt="Café">
+                <div class="card-body">
+                  <h5 class="card-title">Café 4</h5>
+                  <p class="card-text">R$20,00</p>
+                </div>
+              </div>
+            </div> -->
+          <!------------------ FIM DA DIV DE RECEITAS ADICIONAIS -------------------->
+        </div>
+      </div>
+
+      </div>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+<footer>
+  <p>Piazza Don Fábio</p>
+</footer>
+
+</html>

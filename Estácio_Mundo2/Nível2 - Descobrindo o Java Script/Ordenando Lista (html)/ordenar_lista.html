@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="src/style.css"> -->
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <input type="number" id="valor">
+    
+    <button id="exemplo">Adicionar</button><br>
+    <hr>
+    <input list="browsers" id="modo_sort" value="Bubble Sort" onclick="value=null">
+      <datalist id="browsers" >
+        <option value="Bubble Sort">
+        <option value="Selection Sort">
+        <option value="Quick Sort">
+      </datalist>
+    <button id="ordenar" onclick="ordenar()">ordenar</button>
+    <button id="misturar" onclick="misturar()">shuffle</button>
+    <ul id="mostrar">
+    </ul>
+    
+
+    <script src="ordenar_lista.js"></script>
+  </body>
+</html>
