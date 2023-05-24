@@ -1,0 +1,65 @@
+/* main{
+    margin-top: 5rem;
+} */
+
+body{  
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'amatic sc', sans-serif;
+    overflow-y: auto;
+    justify-content: center;
+    background-color: #feffe2;
+}
+
+.navbar-brand img{
+    width: 60px;
+}
+
+.navbar-brand{
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar.navbar-expand-lg{
+    padding: 0;
+}
+
+.card-menu img{
+    height: 300px;
+    /* object-fit: cover; */
+    /* display: flex; */
+    object-fit: cover;
+}
+.card-body{
+    background-color: #f0f0cb;
+}
+
+p{
+    margin: 0;
+}
+
+footer{
+    height: 25px;
+    /* min-height: 50px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    position: fixed;           
+    bottom: 0px;  
+}
+
+
+@media only screen and (max-width:450px) {
+
+    .bem-vindo_container{
+        flex-direction: column;
+    }
+    
+}
